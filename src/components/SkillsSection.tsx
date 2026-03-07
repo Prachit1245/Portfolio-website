@@ -15,52 +15,52 @@ interface SkillsSectionProps {
 
 const skills: Skill[] = [
   { 
-    name: 'JavaScript/TypeScript', 
-    level: 92, 
+    name: 'Ethical Hacking / Penetration Testing', 
+    level: 88, 
     color: 'bg-gradient-to-r from-neon-blue to-neon-purple',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg'
   },
   { 
-    name: 'React/Next.js', 
+    name: 'Network Security', 
     level: 85, 
     color: 'bg-gradient-to-r from-neon-blue to-neon-green',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
   },
   { 
-    name: 'Node.js/Express', 
-    level: 80, 
+    name: 'Web Application Security (OWASP)', 
+    level: 82, 
     color: 'bg-gradient-to-r from-neon-green to-neon-blue',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg'
   },
   { 
-    name: 'Python', 
-    level: 78, 
+    name: 'Cryptography & Encryption', 
+    level: 80, 
     color: 'bg-gradient-to-r from-neon-purple to-neon-blue',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
   },
   { 
-    name: 'Database (SQL/NoSQL)', 
-    level: 70, 
-    color: 'bg-gradient-to-r from-neon-pink to-neon-purple',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
-  },
-  { 
-    name: 'Machine Learning', 
-    level: 65, 
-    color: 'bg-gradient-to-r from-neon-orange to-neon-pink',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg'
-  },
-  { 
-    name: 'UI/UX Design', 
+    name: 'Malware Analysis', 
     level: 75, 
-    color: 'bg-gradient-to-r from-neon-pink to-neon-orange',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
+    color: 'bg-gradient-to-r from-neon-pink to-neon-purple',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg'
   },
   { 
-    name: 'DevOps', 
-    level: 60, 
+    name: 'Cloud Security (AWS/Azure)', 
+    level: 78, 
+    color: 'bg-gradient-to-r from-neon-orange to-neon-pink',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg'
+  },
+  { 
+    name: 'Incident Response & Forensics', 
+    level: 76, 
+    color: 'bg-gradient-to-r from-neon-pink to-neon-orange',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg'
+  },
+  { 
+    name: 'Secure Coding Practices', 
+    level: 79, 
     color: 'bg-gradient-to-r from-neon-purple to-neon-pink',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
   },
 ];
 
@@ -102,7 +102,7 @@ const SkillsSection = ({ className }: SkillsSectionProps) => {
       {/* Background tech grid pattern */}
       <div className="absolute inset-0 cyber-grid opacity-10 -z-10"></div>
       
-      <h2 className="text-3xl font-bold text-gradient mb-8">Technical Skills</h2>
+      <h2 className="text-3xl font-bold text-gradient mb-8">Cybersecurity Arsenal</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {skills.map((skill, index) => (
@@ -144,38 +144,38 @@ const SkillsSection = ({ className }: SkillsSectionProps) => {
           <div className="glass-panel p-3 flex items-center gap-3 relative overflow-hidden group">
             <div className="absolute right-0 bottom-0 opacity-5 w-16 h-16 transition-opacity duration-300 group-hover:opacity-10">
               <img 
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitcoin/bitcoin-original.svg" 
-                alt="Blockchain" 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" 
+                alt="Zero Trust" 
                 className="w-full h-full object-contain"
                 loading="lazy"
               />
             </div>
             <div className="w-3 h-3 rounded-full bg-neon-blue animate-pulse"></div>
-            <span>Blockchain Development</span>
+            <span>Zero Trust Architecture</span>
           </div>
           <div className="glass-panel p-3 flex items-center gap-3 relative overflow-hidden group">
             <div className="absolute right-0 bottom-0 opacity-5 w-16 h-16 transition-opacity duration-300 group-hover:opacity-10">
               <img 
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" 
-                alt="Cloud" 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" 
+                alt="AI Security" 
                 className="w-full h-full object-contain"
                 loading="lazy"
               />
             </div>
             <div className="w-3 h-3 rounded-full bg-neon-purple animate-pulse"></div>
-            <span>Cloud Architecture</span>
+            <span>AI in Cybersecurity</span>
           </div>
           <div className="glass-panel p-3 flex items-center gap-3 relative overflow-hidden group">
             <div className="absolute right-0 bottom-0 opacity-5 w-16 h-16 transition-opacity duration-300 group-hover:opacity-10">
               <img 
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" 
-                alt="AI/ML" 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitcoin/bitcoin-original.svg" 
+                alt="Blockchain Security" 
                 className="w-full h-full object-contain"
                 loading="lazy"
               />
             </div>
             <div className="w-3 h-3 rounded-full bg-neon-pink animate-pulse"></div>
-            <span>AI/ML Engineering</span>
+            <span>Blockchain Security</span>
           </div>
         </div>
       </div>
