@@ -15,52 +15,52 @@ interface SkillsSectionProps {
 
 const skills: Skill[] = [
   { 
-    name: 'JavaScript/TypeScript', 
-    level: 92, 
+    name: 'Ethical Hacking / Penetration Testing', 
+    level: 88, 
     color: 'bg-gradient-to-r from-neon-blue to-neon-purple',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg'
   },
   { 
-    name: 'React/Next.js', 
+    name: 'Network Security', 
     level: 85, 
     color: 'bg-gradient-to-r from-neon-blue to-neon-green',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
   },
   { 
-    name: 'Node.js/Express', 
-    level: 80, 
+    name: 'Web Application Security (OWASP)', 
+    level: 82, 
     color: 'bg-gradient-to-r from-neon-green to-neon-blue',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg'
   },
   { 
-    name: 'Python', 
-    level: 78, 
+    name: 'Cryptography & Encryption', 
+    level: 80, 
     color: 'bg-gradient-to-r from-neon-purple to-neon-blue',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
   },
   { 
-    name: 'Database (SQL/NoSQL)', 
-    level: 70, 
-    color: 'bg-gradient-to-r from-neon-pink to-neon-purple',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
-  },
-  { 
-    name: 'Machine Learning', 
-    level: 65, 
-    color: 'bg-gradient-to-r from-neon-orange to-neon-pink',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg'
-  },
-  { 
-    name: 'UI/UX Design', 
+    name: 'Malware Analysis', 
     level: 75, 
-    color: 'bg-gradient-to-r from-neon-pink to-neon-orange',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
+    color: 'bg-gradient-to-r from-neon-pink to-neon-purple',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg'
   },
   { 
-    name: 'DevOps', 
-    level: 60, 
+    name: 'Cloud Security (AWS/Azure)', 
+    level: 78, 
+    color: 'bg-gradient-to-r from-neon-orange to-neon-pink',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg'
+  },
+  { 
+    name: 'Incident Response & Forensics', 
+    level: 76, 
+    color: 'bg-gradient-to-r from-neon-pink to-neon-orange',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg'
+  },
+  { 
+    name: 'Secure Coding Practices', 
+    level: 79, 
     color: 'bg-gradient-to-r from-neon-purple to-neon-pink',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
   },
 ];
 
