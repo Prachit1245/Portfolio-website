@@ -144,38 +144,38 @@ const SkillsSection = ({ className }: SkillsSectionProps) => {
           <div className="glass-panel p-3 flex items-center gap-3 relative overflow-hidden group">
             <div className="absolute right-0 bottom-0 opacity-5 w-16 h-16 transition-opacity duration-300 group-hover:opacity-10">
               <img 
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitcoin/bitcoin-original.svg" 
-                alt="Blockchain" 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" 
+                alt="Zero Trust" 
                 className="w-full h-full object-contain"
                 loading="lazy"
               />
             </div>
             <div className="w-3 h-3 rounded-full bg-neon-blue animate-pulse"></div>
-            <span>Blockchain Development</span>
+            <span>Zero Trust Architecture</span>
           </div>
           <div className="glass-panel p-3 flex items-center gap-3 relative overflow-hidden group">
             <div className="absolute right-0 bottom-0 opacity-5 w-16 h-16 transition-opacity duration-300 group-hover:opacity-10">
               <img 
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" 
-                alt="Cloud" 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" 
+                alt="AI Security" 
                 className="w-full h-full object-contain"
                 loading="lazy"
               />
             </div>
             <div className="w-3 h-3 rounded-full bg-neon-purple animate-pulse"></div>
-            <span>Cloud Architecture</span>
+            <span>AI in Cybersecurity</span>
           </div>
           <div className="glass-panel p-3 flex items-center gap-3 relative overflow-hidden group">
             <div className="absolute right-0 bottom-0 opacity-5 w-16 h-16 transition-opacity duration-300 group-hover:opacity-10">
               <img 
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" 
-                alt="AI/ML" 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitcoin/bitcoin-original.svg" 
+                alt="Blockchain Security" 
                 className="w-full h-full object-contain"
                 loading="lazy"
               />
             </div>
             <div className="w-3 h-3 rounded-full bg-neon-pink animate-pulse"></div>
-            <span>AI/ML Engineering</span>
+            <span>Blockchain Security</span>
           </div>
         </div>
       </div>
