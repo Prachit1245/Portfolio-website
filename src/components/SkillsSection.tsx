@@ -102,7 +102,7 @@ const SkillsSection = ({ className }: SkillsSectionProps) => {
       {/* Background tech grid pattern */}
       <div className="absolute inset-0 cyber-grid opacity-10 -z-10"></div>
       
-      <h2 className="text-3xl font-bold text-gradient mb-8">Technical Skills</h2>
+      <h2 className="text-3xl font-bold text-gradient mb-8">Cybersecurity Arsenal</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {skills.map((skill, index) => (
