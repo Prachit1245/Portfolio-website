@@ -1,6 +1,6 @@
 import React from 'react';
 import { FileText, Download, ExternalLink, Calendar, Tag } from 'lucide-react';
-import paperAsset from '@/assets/revenge-porn-nepal-research.pdf.asset.json';
+const PAPER_URL = '/revenge-porn-nepal-research.pdf';
 
 const ResearchSection = () => {
   return (
@@ -39,12 +39,12 @@ const ResearchSection = () => {
 
               <div className="flex flex-wrap gap-3">
                 <a
-                  href={paperAsset.url}
+                  href={PAPER_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={(e) => {
                     e.preventDefault();
-                    window.open(paperAsset.url, '_blank', 'noopener,noreferrer');
+                    window.open(PAPER_URL, '_blank', 'noopener,noreferrer');
                   }}
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-md bg-neon-blue/20 hover:bg-neon-blue/30 border border-neon-blue text-neon-blue transition-all duration-300 hover:translate-y-[-2px] hover:shadow-lg"
                 >
@@ -52,7 +52,7 @@ const ResearchSection = () => {
                   Read Paper
                 </a>
                 <a
-                  href={paperAsset.url}
+                  href={PAPER_URL}
                   download="Revenge-Porn-Nepal-Prachit-Regmi-2025.pdf"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-md bg-neon-purple/20 hover:bg-neon-purple/30 border border-neon-purple text-neon-purple transition-all duration-300 hover:translate-y-[-2px] hover:shadow-lg"
                 >
