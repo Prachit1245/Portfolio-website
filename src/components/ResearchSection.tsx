@@ -42,6 +42,10 @@ const ResearchSection = () => {
                   href={paperAsset.url}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.open(paperAsset.url, '_blank', 'noopener,noreferrer');
+                  }}
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-md bg-neon-blue/20 hover:bg-neon-blue/30 border border-neon-blue text-neon-blue transition-all duration-300 hover:translate-y-[-2px] hover:shadow-lg"
                 >
                   <ExternalLink size={16} />
