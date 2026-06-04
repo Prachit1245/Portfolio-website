@@ -28,7 +28,7 @@ const TypingPractice = () => {
   const [accuracy, setAccuracy] = useState<number>(100);
   const [errors, setErrors] = useState<number>(0);
   const inputRef = useRef<HTMLTextAreaElement>(null);
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const { toast } = useToast();
 
   // Handle mode change
