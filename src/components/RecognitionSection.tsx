@@ -1,6 +1,7 @@
 import React from 'react';
-import { Award, ExternalLink, Download, Calendar } from 'lucide-react';
+import { ExternalLink, Download, Calendar } from 'lucide-react';
 import letterAsset from '@/assets/nasa-letter-of-recognition.pdf.asset.json';
+import letterImage from '@/assets/nasa-letter.png.asset.json';
 
 const LETTER_URL = letterAsset.url;
 
@@ -22,14 +23,13 @@ const RecognitionSection = () => {
 
         <div className="bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
           <div className="md:flex">
-            <div className="md:w-1/3 bg-gradient-to-br from-blue-900/90 to-black p-8 flex flex-col items-center justify-center text-white">
-              <Award size={80} className="text-yellow-400 mb-4" />
-              <div className="text-center">
-                <div className="text-2xl font-bold tracking-wider">NASA</div>
-                <div className="text-xs uppercase tracking-widest text-blue-200 mt-1">
-                  Vulnerability Disclosure Program
-                </div>
-              </div>
+            <div className="md:w-1/3 bg-gray-50 p-4 flex items-center justify-center">
+              <img
+                src={letterImage.url}
+                alt="NASA Letter of Recognition awarded to Prachit Regmi"
+                className="w-full h-auto rounded-md shadow-md cursor-pointer"
+                onClick={openLetter}
+              />
             </div>
 
             <div className="md:w-2/3 p-6 md:p-8">
