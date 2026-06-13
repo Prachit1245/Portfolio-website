@@ -14,6 +14,7 @@ import BlogPreview from '@/components/BlogPreview';
 import JobsSection from '@/components/JobsSection';
 import WebsiteOrderSection from '@/components/WebsiteOrderSection';
 import ResearchSection from '@/components/ResearchSection';
+import RecognitionSection from '@/components/RecognitionSection';
 import { ArrowDown, Github, ExternalLink, Terminal, Code } from 'lucide-react';
 
 const Index = () => {
@@ -285,6 +286,10 @@ const Index = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white z-[-1]"></div>
 
       <ResearchSection />
+
+      <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white z-[-1]"></div>
+
+      <RecognitionSection />
       
       <div className="absolute inset-0 bg-gradient-to-b from-white to-gray-50 z-[-1]"></div>
       
