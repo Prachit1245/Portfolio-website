@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digital-hacker-space.lovable.app/sitemap.xml
